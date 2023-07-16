@@ -1,0 +1,40 @@
+<html>
+    <head> <title> Choo Choo Marles </title>
+    <link rel="stylesheet" href="styl.css"></head>
+    <center>
+        <body id="re">
+            <h1> Choo Choo Marles</h1>
+            <h5> click the button to start(if you are worthy) </h5>
+            <button id="carl" onclick="marles()">Start</button>
+            <label style="visibility: hidden; width: 20px;"id="ll"> YOU ARE NOT WORTHY! TRY AGAIN! </label>
+            <label style="visibility: hidden;"id="l"> Choo Choo Marles</label>
+            <a href="marls.html"><button id="blue" style="visibility: hidden;"> Enter if you dare!</button></a>
+            <script>
+                function marles(){
+                    var i=Math.random()*1;
+                    var k=i.toFixed(0);
+                    console.log(i);
+                    if (k==1){
+                        document.getElementById("l").style.visibility="visible";
+                        document.getElementById("blue").style.visibility="visible";
+                        document.getElementById("re").style.backgroundColor="black";
+                        document.getElementById("re").style.color="red";
+                        document.getElementById("re").style.textAlign="center";
+                        document.getElementById("re").style.fontSize="larger";
+                        document.getElementById("ll").style.visibility="hidden";
+                        document.getElementById("carl").style.color="red";
+                        document.getElementById("carl").style.backgroundColor="black";
+                        console.log("vos");
+                        document.getElementById("carl").style.visibility="hidden";
+
+                    }
+                    else{
+                        document.getElementById("l").style.visibility="hidden";
+                        document.getElementById("ll").style.visibility="visible";
+
+                    }
+                }
+            </script>
+        </body>
+    </center>
+</html>

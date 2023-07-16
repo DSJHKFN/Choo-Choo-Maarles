@@ -1,0 +1,36 @@
+.body_background 
+{
+    background-color: black;
+}
+#myCanvas
+{
+    border-width:10px;
+    border-style:ridge;
+	background-color:darkred;
+}
+
+
+#hd3{
+	display: inline-block;
+	color: red;
+	background-color: aliceblue;
+	font-family: fantasy;
+}
+
+#aqui{
+    background-color: red;
+    color: black;
+}
+#hire{
+    color:red;
+    background-color:black;
+    text-align: center;
+}
+#hi{
+    background-color: red;
+    color: black;
+}
+button{
+    background-color: red;
+    color: black;
+}
