@@ -6,7 +6,7 @@ ball_y=0;
 ball_x=0;
 hole_y=100;
 hole_x=750;
-fole_x=730;
+fole_x=700;
 fole_y=100;
 console.log(fole_x,fole_y)
 
