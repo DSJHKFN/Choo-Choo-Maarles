@@ -84,6 +84,8 @@ function my_keydown(e)
         canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="Why.."
 		document.getElementById("myCanvas").style.borderColor="black";
+	    ball_y=0;
+	    ball_x=0;
     }
 	
 	else{
