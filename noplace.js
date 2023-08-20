@@ -82,17 +82,21 @@ function my_keydown(e)
         if (k==1){
             document.getElementById("hi").style.visibility="visible";
             document.getElementById("aqui").style.visibility="hidden";
+		ball_y=0;
+		ball_x=0;
             canvas.remove(ball_obj);
         }
         else{
             document.getElementById("aqui").style.visibility="visible";
             document.getElementById("hi").style.visibility="hidden";
+		ball_y=0;
+		ball_x=0;
             canvas.remove(ball_obj);
         }
     }
     else if ((ball_x==fole_x)&&(ball_y==fole_y)){
         canvas.remove(ball_obj);
-		document.getElementById("hd3").innerHTML="FOOM!"
+		document.getElementById("hd3").innerHTML="SPLASH!"
 		document.getElementById("myCanvas").style.borderColor="black";
     }
 	
