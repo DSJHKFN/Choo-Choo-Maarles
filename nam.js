@@ -81,7 +81,6 @@ function my_keydown(e)
 
 	}
     else if ((ball_x==fole_x)&&(ball_y==fole_y)){
-        canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="Khartoum!"
 		document.getElementById("myCanvas").style.borderColor="black";
 	    ball_y=0;
