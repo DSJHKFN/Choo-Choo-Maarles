@@ -102,14 +102,12 @@ function my_keydown(e)
 
 	}
     else if ((ball_x==fole_x)&&(ball_y==fole_y)){
-        canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="NO...YOU WERE SO CLOSE!"
 		document.getElementById("myCanvas").style.borderColor="black";
 	    ball_y=0;
 	    ball_x=0;
     }
     else if ((ball_x==cole_x)&&(ball_y==cole_y)){
-        canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="Heh"
 		document.getElementById("myCanvas").style.borderColor="black";
 	    ball_y=0;
