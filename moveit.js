@@ -106,7 +106,6 @@ function my_keydown(e)
 	    ball_x=0;
     }
     else if ((ball_x==cole_x)&&(ball_y==cole_y)){
-        canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="BABY MARLES!"
 		document.getElementById("myCanvas").style.borderColor="black";
 	    ball_y=0;
