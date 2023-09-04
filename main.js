@@ -13,8 +13,8 @@ cole_y=10
 console.log(fole_x,fole_y)
 
 
-block_image_width = 5;
-block_image_height = 5;
+block_image_width = 10;
+block_image_height = 10;
 
 function coad_img(){
 	// write code to Upload golf image on the canvas
