@@ -11,8 +11,8 @@ fole_y=100;
 console.log(fole_x,fole_y)
 
 
-block_image_width = 5;
-block_image_height = 5;
+block_image_width = 10;
+block_image_height = 10;
 
 function coad_img(){
 	// write code to Upload golf image on the canvas
@@ -70,7 +70,7 @@ function my_keydown(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	/* Check the coordinates of the ball and hole images to finish the game. 
-	And id coordinates matches them remove ball image, 
+	And id coordinates match them remove the ball image, 
 	display "GAME OVER!!!" 
 	and make canvas border 'red'. */
 	if((ball_x==hole_x)&&(ball_y==hole_y)){
