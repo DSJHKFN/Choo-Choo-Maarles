@@ -74,6 +74,7 @@ function my_keydown(e)
 	display "GAME OVER!!!" 
 	and make canvas border 'red'. */
 	if((ball_x==hole_x)&&(ball_y==hole_y)){
+	canvas.remove(ball_obj);
         var i=Math.random()*1;
         var k=i.toFixed(0);
         console.log(i);
