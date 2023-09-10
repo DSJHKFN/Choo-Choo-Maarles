@@ -5,8 +5,8 @@ var canvas = new fabric.Canvas('myCanvas');
 ball_y=0;
 ball_x=0;
 hole_y=400;
-hole_x=750;
-fole_x=715;
+hole_x=740;
+fole_x=720;
 fole_y=400;
 console.log(fole_x,fole_y)
 
