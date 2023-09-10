@@ -54,7 +54,7 @@ function my_keydown(e)
         canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="Move on"
 		document.getElementById("myCanvas").style.borderColor="green";
-        document.getElementById("aqui").style.visibility="visible";
+		document.getElementById("aqui").style.visibility="visible";
 
 	}
 	
