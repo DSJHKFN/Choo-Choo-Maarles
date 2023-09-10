@@ -76,7 +76,7 @@ function my_keydown(e)
 	if((ball_x==hole_x)&&(ball_y==hole_y)){
         canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="Move on"
-		document.getElementById("myCanvas").style.borderColor="black";
+		document.getElementById("myCanvas").style.borderColor="green";
         document.getElementById("aqui").style.visibility="visible";
 
 	}
