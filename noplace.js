@@ -75,6 +75,7 @@ function my_keydown(e)
 	and make canvas border 'red'. */
 	if((ball_x==hole_x)&&(ball_y==hole_y)){
         canvas.remove(ball_obj);
+	document.getElementById("myCanvas").style.borderColor="green";
         document.getElementById("hd3").innerHTML="Move on";
         var i=Math.random()*4;
         var k=i.toFixed(0);
