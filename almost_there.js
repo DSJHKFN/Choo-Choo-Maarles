@@ -78,6 +78,7 @@ function my_keydown(e)
         document.getElementById("hd3").innerHTML="Move on";
         canvas.remove(ball_obj);
         document.getElementById("aqui").style.visibility="visible";
+	document.getElementById("myCanvas").style.borderColor="green";
     }
     else if ((ball_x==fole_x)&&(ball_y==fole_y)){
         canvas.remove(ball_obj);
